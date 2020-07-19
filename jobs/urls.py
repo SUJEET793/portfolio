@@ -18,5 +18,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('sujeet',views.sujeet, name='sujeet'),
+    path('',views.sujeet, name='sujeet'),
 ]
